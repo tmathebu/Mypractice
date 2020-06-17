@@ -1,0 +1,21 @@
+wc:
+-> simply calculates the number of lines ,characters and words in a file
+-> wc * will display lines,wordsand chars of each file and specifying the file
+-> cat <file_name> | grep Thabo (to get only thabos)|wc -l (-l to get only lines ,then we will know how many thabos are there>
+
+file:
+-> file <file_name> gives us info about a file i.e a c or python file.
+
+ifconfig:
+-> gives info on your network
+
+bc:
+-> it's a calculator
+-> can vonvert bases,uses sin,cos,tan and more
+
+find:
+-> by default list all files in a directory
+-> find <derectory name> list all files in directory
+-> find <directory name> -name <name*> filters by name ,via name specified
+-> has "man"
+was at 3:40
