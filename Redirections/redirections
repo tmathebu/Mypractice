@@ -1,0 +1,22 @@
+chain commands:
+
+output redirections:
+
+-> echo "thabo " > Name:
+
+* a file named Name will be created and thabo will be written in it.
+* we can use cat Name to check
+* using one greater ">"will only replace whats in file  
+* we need to use two greater ">>"
+
+-> cat <file_name> | grep "thabo":
+
+* outputs lines with thabo in file name specified
+* cat writes in the pipe and grep reads in the pipe rather than the standard input
+
+input redirection:
+
+-> cat <file_name> | grep "thabo"|head -n 1
+
+* will then output oneline (first because its head).
+

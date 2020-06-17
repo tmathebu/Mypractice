@@ -1,0 +1,11 @@
+head & tail:
+-> used to filter file
+-> displays first/last part of file "aprox 10 lines"
+-> to specify lines head -n <number_of_lines> <name_of_file>
+-> has the "man"
+grep:
+-> you can specify which lines you want to display
+-> grep "thabo" <file_name> ,will display all lines that contain thabo.
+-> grep -v "thabo" <file_name> will display lines that are not matching thabo
+-> also has "man" to check options
+-> used a lot

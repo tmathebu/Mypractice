@@ -1,0 +1,18 @@
+echo:
+
+-> it's a standard command that writes its comands into standard output
+-> can take more than one argument.
+
+cat:
+-> cat takes a file as an argument and displays content of its file.
+
+more:
+-> also displays content on standard output
+-> can browse up andf down
+-> you can also search within a file by typing a keyword.
+
+less:
+-> similar to more
+-> allows backwards movement
+-> advanced more than "more"
+-> also integrated to "man"

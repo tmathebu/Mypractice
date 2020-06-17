@@ -1,0 +1,19 @@
+sort:
+-> cat <file_name> | sort
+* will sort all the lines in file ,in alphabertical order
+-> this type of sorting used is lexicographic:
+* which is ASCII character sorting
+* so bear in mind that upper cases before lower cases
+-> sort also has the "man sort" which shows options 
+
+-> after sorting you can cut lines to display names only,if it was names,surnames and numbers.
+* cat <file_name> |sort|cut -d ,-f 1 | sed "s(meaning substitute)/thabo/Thabo/"
+* sed section will change thabo to Thabo.
+* tr "t" "T" changes characters in words takes two commands 
+e.g 
+thabos 
+tshepos
+tr "ts" "TS"
+ThaboS
+TShepoS
+
