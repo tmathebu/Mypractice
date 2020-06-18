@@ -18,4 +18,9 @@ find:
 -> find <derectory name> list all files in directory
 -> find <directory name> -name <name*> filters by name ,via name specified
 -> has "man"
-was at 3:40
+
+env:
+-> its a list of variables in shell that will automatically be sent to all your binariesa and scripts.
+-> can be used to configure shell scripts.
+-> use "export <variable_name>" to add variables on the shell
+-> to access the variable we use $<name_of_variable> we can use echo to display its value. 
